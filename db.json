@@ -1,0 +1,242 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "ekanth",
+      "email": "ekanth@gmail.com",
+      "password": "ekanth95"
+    }
+  ],
+  "laptops": [
+    {
+      "id": 1,
+      "name": "Dell G15",
+      "brand": "Dell",
+      "category": "Gaming",
+      "budget": "Medium",
+      "image": "https://microless.com/cdn/products/667b7099fb779e94b5f4fbdd983f8eb8-hi.jpg",
+      "description": "Dell G15 is a solid entry-to-mid range gaming laptop offering strong performance and durable build quality for everyday gaming.",
+      "releaseYear": "2024",
+      "warranty": "1 Year",
+      "rating": 4.4,
+      "price": 85000,
+      "processor": "Intel Core i5 13th Gen",
+      "currency": "INR",
+      "bestFor": "Gaming & Everyday Use",
+      "displaySize": "15.6-inch 120Hz FHD",
+      "keyFeatures": [
+        "RTX 3050 Graphics",
+        "16GB RAM / 512GB SSD",
+        "Dual-Fan Cooling System",
+        "Alienware-inspired Thermal Design"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Asus TUF A15",
+      "brand": "Asus",
+      "category": "Gaming",
+      "budget": "Medium",
+      "image": "https://m.media-amazon.com/images/I/71TKMMyLCAL._AC_.jpg",
+      "description": "Asus TUF A15 is a rugged, military-grade gaming laptop built to handle demanding games while staying durable for daily use.",
+      "releaseYear": "2024",
+      "warranty": "2 Years",
+      "rating": 4.6,
+      "price": 80000,
+      "processor": "AMD Ryzen 7 7735HS",
+      "currency": "INR",
+      "bestFor": "Gaming & Durability",
+      "displaySize": "15.6-inch 144Hz FHD",
+      "keyFeatures": [
+        "RTX 4050 Graphics",
+        "16GB RAM / 512GB SSD",
+        "MIL-STD-810H Durability",
+        "Self-Cleaning Cooling System"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "MacBook Air M2",
+      "brand": "Apple",
+      "category": "Ultrabook",
+      "budget": "High",
+      "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9",
+      "description": "MacBook Air M2 offers a fanless design, all-day battery life, and exceptional build quality for everyday productivity.",
+      "releaseYear": "2023",
+      "warranty": "1 Year",
+      "rating": 4.8,
+      "price": 114900,
+      "processor": "Apple M2",
+      "currency": "INR",
+      "bestFor": "Productivity & Portability",
+      "displaySize": "13.6-inch Liquid Retina",
+      "keyFeatures": [
+        "8GB RAM / 256GB SSD",
+        "18-hour Battery Life",
+        "Fanless Silent Design",
+        "MagSafe Charging"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "HP Pavilion 15",
+      "brand": "HP",
+      "category": "Everyday",
+      "budget": "Low",
+      "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed",
+      "description": "HP Pavilion 15 is a reliable everyday laptop for students and home users, balancing performance and affordability.",
+      "releaseYear": "2023",
+      "warranty": "1 Year",
+      "rating": 4.2,
+      "price": 52000,
+      "processor": "Intel Core i5 12th Gen",
+      "currency": "INR",
+      "bestFor": "Students & Home Use",
+      "displaySize": "15.6-inch FHD",
+      "keyFeatures": [
+        "8GB RAM / 512GB SSD",
+        "B&O Audio Tuning",
+        "Backlit Keyboard",
+        "Fast Charge Support"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Lenovo Legion 5 Pro",
+      "brand": "Lenovo",
+      "category": "Gaming",
+      "budget": "High",
+      "image": "https://images.unsplash.com/photo-1603481546238-487240415921",
+      "description": "Lenovo Legion 5 Pro is built for high-end gaming with a QHD high-refresh display and strong thermal performance.",
+      "releaseYear": "2024",
+      "warranty": "2 Years",
+      "rating": 4.7,
+      "price": 145000,
+      "processor": "AMD Ryzen 9 7940HX",
+      "currency": "INR",
+      "bestFor": "High-End Gaming",
+      "displaySize": "16-inch 165Hz QHD",
+      "keyFeatures": [
+        "RTX 4070 Graphics",
+        "32GB RAM / 1TB SSD",
+        "Legion Coldfront Cooling",
+        "Per-key RGB Keyboard"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Acer Swift 3",
+      "brand": "Acer",
+      "category": "Ultrabook",
+      "budget": "Low",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+      "description": "Acer Swift 3 is a lightweight ultrabook that offers good performance and portability for professionals on a budget.",
+      "releaseYear": "2023",
+      "warranty": "1 Year",
+      "rating": 4.3,
+      "price": 58000,
+      "processor": "AMD Ryzen 5 7530U",
+      "currency": "INR",
+      "bestFor": "Work & Travel",
+      "displaySize": "14-inch FHD IPS",
+      "keyFeatures": [
+        "16GB RAM / 512GB SSD",
+        "1.25kg Lightweight Build",
+        "Fingerprint Reader",
+        "Wi-Fi 6 Support"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "MSI Katana 15",
+      "brand": "MSI",
+      "category": "Gaming",
+      "budget": "Medium",
+      "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6",
+      "description": "MSI Katana 15 combines strong gaming performance with a sleek design, ideal for gamers wanting value for money.",
+      "releaseYear": "2024",
+      "warranty": "1 Year",
+      "rating": 4.5,
+      "price": 92000,
+      "processor": "Intel Core i7 13th Gen",
+      "currency": "INR",
+      "bestFor": "Gaming & Content Creation",
+      "displaySize": "15.6-inch 144Hz FHD",
+      "keyFeatures": [
+        "RTX 4060 Graphics",
+        "16GB RAM / 1TB SSD",
+        "Cooler Boost 5 Technology",
+        "Dynaudio Speakers"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Microsoft Surface Laptop 5",
+      "brand": "Microsoft",
+      "category": "2-in-1",
+      "budget": "High",
+      "image": "https://images.unsplash.com/photo-1587614382346-4ec70e388b28",
+      "description": "Surface Laptop 5 offers a premium build with a vibrant touchscreen, ideal for professionals who value design and portability.",
+      "releaseYear": "2023",
+      "warranty": "1 Year",
+      "rating": 4.6,
+      "price": 108000,
+      "processor": "Intel Core i5 12th Gen",
+      "currency": "INR",
+      "bestFor": "Business & Design",
+      "displaySize": "13.5-inch PixelSense Touch",
+      "keyFeatures": [
+        "8GB RAM / 512GB SSD",
+        "Premium Alcantara Finish",
+        "Windows Hello Face Login",
+        "Thin & Light Chassis"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Samsung Galaxy Book4 Pro",
+      "brand": "Samsung",
+      "category": "Ultrabook",
+      "budget": "High",
+      "image": "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9",
+      "description": "Galaxy Book4 Pro features a stunning AMOLED display and ultra-slim design, built for creators and multitaskers on the move.",
+      "releaseYear": "2024",
+      "warranty": "1 Year",
+      "rating": 4.6,
+      "price": 135000,
+      "processor": "Intel Core Ultra 7",
+      "currency": "INR",
+      "bestFor": "Creators & Multitasking",
+      "displaySize": "14-inch 3K AMOLED",
+      "keyFeatures": [
+        "16GB RAM / 512GB SSD",
+        "1.17kg Ultra-Slim Build",
+        "S Pen Compatible",
+        "Studio-Quality Speakers"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Acer Nitro V15",
+      "brand": "Acer",
+      "category": "Gaming",
+      "budget": "Low",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0",
+      "description": "Acer Nitro V15 is a budget-friendly gaming laptop that delivers reliable performance for casual and mid-tier gamers.",
+      "releaseYear": "2023",
+      "warranty": "1 Year",
+      "rating": 4.1,
+      "price": 63000,
+      "processor": "Intel Core i5 13th Gen",
+      "currency": "INR",
+      "bestFor": "Casual Gaming",
+      "displaySize": "15.6-inch 144Hz FHD",
+      "keyFeatures": [
+        "RTX 3050 Graphics",
+        "8GB RAM / 512GB SSD",
+        "NitroSense Control Panel",
+        "Quad-Speaker Setup"
+      ]
+    }
+  ]
+}
