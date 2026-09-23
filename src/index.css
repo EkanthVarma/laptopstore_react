@@ -660,3 +660,10 @@ nav {
     position: relative;
   }
 }
+
+.password-hint {
+  font-size: 13px;
+  color: #64748b;
+  margin: -10px 0 18px;
+  line-height: 1.5;
+}
