@@ -39,10 +39,6 @@ function Navbar() {
         <Link to="/" onClick={closeMenu}>Home</Link>
         <Link to="/laptops" onClick={closeMenu}>Laptops</Link>
 
-        <Link to="/favorites" onClick={closeMenu}>
-          Favorites ({favorites.length})
-        </Link>
-
         {!user && (
           <>
             <Link to="/register" onClick={closeMenu}>Register</Link>
@@ -51,7 +47,13 @@ function Navbar() {
         )}
 
         {user && (
-          <Link to="/logout" onClick={closeMenu}>Logout</Link>
+          <>
+            <Link to="/favorites" onClick={closeMenu}>
+              Favorites ({favorites.length})
+            </Link>
+
+            <Link to="/logout" onClick={closeMenu}>Logout</Link>
+          </>
         )}
       </div>
     </nav>
