@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route,Navigate } from "react-router-dom";
 
 import Home from "../pages/Home";
 import Laptops from "../pages/Laptops";
@@ -10,6 +10,7 @@ import Login from "../pages/Login";
 import Logout from "../pages/Logout";
 import ProtectedRoute from "./ProtectedRoute";
 import Favorites from "../pages/Favorites";
+import Cart from "../pages/Cart";
 
 function AppRoutes() {
   return (
@@ -58,7 +59,15 @@ function AppRoutes() {
         element={<ProtectedRoute><Favorites /></ProtectedRoute>}
       />
 
+      <Route
+        path="/cart"
+        element={<ProtectedRoute><Cart /></ProtectedRoute>}
+      />
+
+      <Route path="*" element={<Navigate to="/" replace/>}/>
     </Routes>
+
+    
   );
 }
 

@@ -15,6 +15,8 @@ function Navbar() {
     state => state.favorites
   );
 
+  const cart = useSelector(state => state.cart);
+
   function closeMenu() {
     setMenuOpen(false);
   }
@@ -51,6 +53,11 @@ function Navbar() {
             <Link to="/favorites" onClick={closeMenu}>
               Favorites ({favorites.length})
             </Link>
+
+            <Link to="/cart" onClick={closeMenu}>
+              Cart ({cart.length})
+            </Link>
+
 
             <Link to="/logout" onClick={closeMenu}>Logout</Link>
           </>

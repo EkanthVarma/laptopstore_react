@@ -5,6 +5,8 @@ import {
   addFavorite
 } from "../features/favoriteSlice";
 
+import { addToCart } from "../features/cartSlice";
+
 function LaptopCard({ laptop, onDelete }) {
 
   const dispatch = useDispatch();
@@ -52,12 +54,21 @@ function LaptopCard({ laptop, onDelete }) {
         >
           Delete
         </button>
+      </div>
+
+      <div className="card-secondary-actions">
+        <button
+          className="favorite-btn"
+          onClick={handleFavorite}
+        >
+          ❤ Favorites
+        </button>
 
         <button
-        className="favorite-btn"
-        onClick={handleFavorite}
+          className="cart-btn"
+          onClick={() => dispatch(addToCart(laptop))}
         >
-          ❤ Add To Favorites
+          🛒 Add To Cart
         </button>
       </div>
 
