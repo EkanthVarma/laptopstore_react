@@ -22,7 +22,7 @@ function AppRoutes() {
 
       <Route
         path="/laptops"
-        element={<Laptops />}
+        element={<ProtectedRoute><Laptops /></ProtectedRoute>}
       />
 
       <Route

@@ -17,6 +17,8 @@ function Favorites() {
 
   return (
 
+    <div className="page-favorites">
+
     <div className="favorites-container">
 
       <h1 className="page-title">
@@ -97,6 +99,8 @@ function Favorites() {
 
         )
       }
+
+    </div>
 
     </div>
 

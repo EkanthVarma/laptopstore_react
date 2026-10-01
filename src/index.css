@@ -787,3 +787,36 @@ nav {
   text-align: center;
   margin-top: 80px;
 }
+
+/* PAGE BACKGROUNDS */
+
+.page-home {
+  background: linear-gradient(135deg, #80a5d5, #b3d4ed, #e9edef);
+  border-radius: 28px;
+  padding: 10px 0 10px;
+  margin-top: 10px;
+}
+
+.page-laptops {
+  background: linear-gradient(135deg, #fff7ed, #ffedd5, #fef3c7);
+  border-radius: 28px;
+  padding: 30px;
+  margin-top: 10px;
+  box-shadow: 0 10px 30px rgba(251, 146, 60, 0.1);
+}
+
+.page-favorites {
+  background: linear-gradient(135deg, #fdf2f8, #fce7f3, #fae8ff);
+  border-radius: 28px;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0 10px 30px rgba(236, 72, 153, 0.1);
+}
+
+.page-cart {
+  background: linear-gradient(135deg, #f0fdf4, #dcfce7, #d1fae5);
+  border-radius: 28px;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0 10px 30px rgba(34, 197, 94, 0.1);
+}

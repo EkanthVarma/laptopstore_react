@@ -86,7 +86,8 @@ function Laptops() {
   }
 
   return (
-    <>
+    <div className="page-laptops">
+
       <Link
         className="add-btn"
         to="/add-laptop"
@@ -176,7 +177,8 @@ function Laptops() {
           />
         ))}
       </div>
-    </>
+
+    </div>
   );
 }
 

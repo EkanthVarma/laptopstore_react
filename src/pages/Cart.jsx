@@ -25,6 +25,8 @@ function Cart() {
 
   return (
 
+    <div className="page-cart">
+
     <div className="cart-container">
 
       <h1 className="page-title">
@@ -142,6 +144,8 @@ function Cart() {
 
         )
       }
+
+    </div>
 
     </div>
 
